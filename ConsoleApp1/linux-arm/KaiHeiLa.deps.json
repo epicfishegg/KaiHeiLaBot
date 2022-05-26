@@ -1,0 +1,427 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0/linux-arm",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {},
+    ".NETCoreApp,Version=v6.0/linux-arm": {
+      "KaiHeiLa/1.0.0": {
+        "dependencies": {
+          "AdvancedStringBuilder": "0.1.0",
+          "Flurl.Http": "3.2.4",
+          "JavaScriptEngineSwitcher.Core": "3.3.0",
+          "JavaScriptEngineSwitcher.V8": "3.18.1",
+          "KaiHeiLa.Net": "0.0.25-alpha",
+          "KaiHeiLa.Net.Core": "0.0.25-alpha",
+          "Microsoft.ClearScript.V8.Native.win-x64": "7.2.5",
+          "NeteaseCloudMusicApi": "3.25.3.10000",
+          "SharpZipLib": "1.3.3"
+        },
+        "runtime": {
+          "KaiHeiLa.dll": {}
+        }
+      },
+      "AdvancedStringBuilder/0.1.0": {
+        "runtime": {
+          "lib/netstandard2.0/AdvancedStringBuilder.dll": {
+            "assemblyVersion": "0.1.0.0",
+            "fileVersion": "0.1.0.0"
+          }
+        }
+      },
+      "Flurl/3.0.6": {
+        "runtime": {
+          "lib/netstandard2.0/Flurl.dll": {
+            "assemblyVersion": "3.0.6.0",
+            "fileVersion": "3.0.6.0"
+          }
+        }
+      },
+      "Flurl.Http/3.2.4": {
+        "dependencies": {
+          "Flurl": "3.0.6",
+          "Newtonsoft.Json": "12.0.2",
+          "System.Text.Encoding.CodePages": "4.5.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Flurl.Http.dll": {
+            "assemblyVersion": "3.2.4.0",
+            "fileVersion": "3.2.4.0"
+          }
+        }
+      },
+      "JavaScriptEngineSwitcher.Core/3.3.0": {
+        "dependencies": {
+          "AdvancedStringBuilder": "0.1.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/JavaScriptEngineSwitcher.Core.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.3.0.0"
+          }
+        },
+        "resources": {
+          "lib/netstandard2.0/ru-ru/JavaScriptEngineSwitcher.Core.resources.dll": {
+            "locale": "ru-ru"
+          }
+        }
+      },
+      "JavaScriptEngineSwitcher.V8/3.18.1": {
+        "dependencies": {
+          "AdvancedStringBuilder": "0.1.0",
+          "JavaScriptEngineSwitcher.Core": "3.3.0",
+          "Microsoft.ClearScript.V8": "7.2.5"
+        },
+        "runtime": {
+          "lib/net5.0/JavaScriptEngineSwitcher.V8.dll": {
+            "assemblyVersion": "3.18.1.0",
+            "fileVersion": "3.18.1.0"
+          }
+        },
+        "resources": {
+          "lib/net5.0/ru-ru/JavaScriptEngineSwitcher.V8.resources.dll": {
+            "locale": "ru-ru"
+          }
+        }
+      },
+      "KaiHeiLa.Net/0.0.25-alpha": {
+        "dependencies": {
+          "KaiHeiLa.Net.Commands": "0.0.25-alpha",
+          "KaiHeiLa.Net.Core": "0.0.25-alpha",
+          "KaiHeiLa.Net.Rest": "0.0.25-alpha",
+          "KaiHeiLa.Net.WebSocket": "0.0.25-alpha"
+        },
+        "runtime": {
+          "lib/net6.0/KaiHeiLa.Net.dll": {
+            "assemblyVersion": "0.0.25.0",
+            "fileVersion": "0.0.25.0"
+          }
+        }
+      },
+      "KaiHeiLa.Net.Commands/0.0.25-alpha": {
+        "dependencies": {
+          "KaiHeiLa.Net.Core": "0.0.25-alpha"
+        },
+        "runtime": {
+          "lib/net6.0/KaiHeiLa.Net.Commands.dll": {
+            "assemblyVersion": "0.0.25.0",
+            "fileVersion": "0.0.25.0"
+          }
+        }
+      },
+      "KaiHeiLa.Net.Core/0.0.25-alpha": {
+        "dependencies": {
+          "System.Collections.Immutable": "6.0.0",
+          "System.Linq.Async": "6.0.1",
+          "System.Text.Json": "6.0.2"
+        },
+        "runtime": {
+          "lib/net6.0/KaiHeiLa.Net.Core.dll": {
+            "assemblyVersion": "0.0.25.0",
+            "fileVersion": "0.0.25.0"
+          }
+        }
+      },
+      "KaiHeiLa.Net.Rest/0.0.25-alpha": {
+        "dependencies": {
+          "KaiHeiLa.Net.Core": "0.0.25-alpha",
+          "System.Linq.Async": "6.0.1",
+          "System.Text.Json": "6.0.2"
+        },
+        "runtime": {
+          "lib/net6.0/KaiHeiLa.Net.Rest.dll": {
+            "assemblyVersion": "0.0.25.0",
+            "fileVersion": "0.0.25.0"
+          }
+        }
+      },
+      "KaiHeiLa.Net.WebSocket/0.0.25-alpha": {
+        "dependencies": {
+          "KaiHeiLa.Net.Core": "0.0.25-alpha",
+          "KaiHeiLa.Net.Rest": "0.0.25-alpha",
+          "SharpZipLib": "1.3.3",
+          "System.Linq.Async": "6.0.1"
+        },
+        "runtime": {
+          "lib/net6.0/KaiHeiLa.Net.WebSocket.dll": {
+            "assemblyVersion": "0.0.25.0",
+            "fileVersion": "0.0.25.0"
+          }
+        }
+      },
+      "Microsoft.Bcl.AsyncInterfaces/6.0.0": {
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "Microsoft.ClearScript.Core/7.2.5": {
+        "runtime": {
+          "lib/net5.0/ClearScript.Core.dll": {
+            "assemblyVersion": "7.2.5.0",
+            "fileVersion": "7.2.5.0"
+          }
+        }
+      },
+      "Microsoft.ClearScript.V8/7.2.5": {
+        "dependencies": {
+          "Microsoft.ClearScript.Core": "7.2.5"
+        },
+        "runtime": {
+          "lib/net5.0/ClearScript.V8.dll": {
+            "assemblyVersion": "7.2.5.0",
+            "fileVersion": "7.2.5.0"
+          }
+        }
+      },
+      "Microsoft.ClearScript.V8.Native.win-x64/7.2.5": {},
+      "Microsoft.NETCore.Platforms/2.1.2": {},
+      "NeteaseCloudMusicApi/3.25.3.10000": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/NeteaseCloudMusicApi.dll": {
+            "assemblyVersion": "3.25.3.10000",
+            "fileVersion": "3.25.3.10000"
+          }
+        }
+      },
+      "Newtonsoft.Json/12.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.2.23222"
+          }
+        }
+      },
+      "SharpZipLib/1.3.3": {
+        "runtime": {
+          "lib/netstandard2.1/ICSharpCode.SharpZipLib.dll": {
+            "assemblyVersion": "1.3.3.11",
+            "fileVersion": "1.3.3.11"
+          }
+        }
+      },
+      "System.Collections.Immutable/6.0.0": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        }
+      },
+      "System.Linq.Async/6.0.1": {
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/System.Linq.Async.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.1.35981"
+          }
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {},
+      "System.Text.Encoding.CodePages/4.5.1": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.1.2",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        }
+      },
+      "System.Text.Encodings.Web/6.0.0": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        }
+      },
+      "System.Text.Json/6.0.2": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0",
+          "System.Text.Encodings.Web": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/System.Text.Json.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.222.6406"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "KaiHeiLa/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AdvancedStringBuilder/0.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IbN3r5whlJvi8MhCDPVpIb+NVScyUcKSdcJZrnoXFDyzPDISl3AbWouNBYIHRdZdfGuzqCQEhM1vkxbIKqQVaQ==",
+      "path": "advancedstringbuilder/0.1.0",
+      "hashPath": "advancedstringbuilder.0.1.0.nupkg.sha512"
+    },
+    "Flurl/3.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XMIlB/tJ4nTYF2+79xDsnnlgbXHpKyizKX2fffrECekI6pEsa9MSLzf5tPVMdLy4k4AcJPLs356Sa2Le5VRDCw==",
+      "path": "flurl/3.0.6",
+      "hashPath": "flurl.3.0.6.nupkg.sha512"
+    },
+    "Flurl.Http/3.2.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Me9Vm4Lm21vt/pbR0G2Dww/ZOjJgh6mB2FiH28aiUYStJD10ZecDp8jxg2zKxcy6lnkvLm99pjG4yC/k7a/d8w==",
+      "path": "flurl.http/3.2.4",
+      "hashPath": "flurl.http.3.2.4.nupkg.sha512"
+    },
+    "JavaScriptEngineSwitcher.Core/3.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aY5dOsBsB7MO2twVRlRcvHBFdkXptIwjSobjPis+DiUi5Cq2YU6M8ICHzaQ1ZXHl7VyWrBMV7cTn98ZrI5ZMHQ==",
+      "path": "javascriptengineswitcher.core/3.3.0",
+      "hashPath": "javascriptengineswitcher.core.3.3.0.nupkg.sha512"
+    },
+    "JavaScriptEngineSwitcher.V8/3.18.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-02uwlzOWrAz2ThYWLAp23cRrsqc/x0egRqf9tV6j1eR9x7ueDrpisA9nbz4Xr8Iwqe9VFn2nHsPs6y9FcdketA==",
+      "path": "javascriptengineswitcher.v8/3.18.1",
+      "hashPath": "javascriptengineswitcher.v8.3.18.1.nupkg.sha512"
+    },
+    "KaiHeiLa.Net/0.0.25-alpha": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IylofFyljHhjBPAohZ4OmDrv8p9vlRlsEgDZI//5UFZQZj5HOOPuOUMorFr/jbgzxfVqclCWNIN9h2a9d3tRMw==",
+      "path": "kaiheila.net/0.0.25-alpha",
+      "hashPath": "kaiheila.net.0.0.25-alpha.nupkg.sha512"
+    },
+    "KaiHeiLa.Net.Commands/0.0.25-alpha": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VbOgOtEHztFwlf+shJkBByV/EnnXye81mIEv+b5AR30C1cvRAb73q9LtRL1oOhPjq5B7M6fDqPlLjGDnmM39SQ==",
+      "path": "kaiheila.net.commands/0.0.25-alpha",
+      "hashPath": "kaiheila.net.commands.0.0.25-alpha.nupkg.sha512"
+    },
+    "KaiHeiLa.Net.Core/0.0.25-alpha": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FFQUybiiPUIJrwRZcQLauob181geM7lvq3QBaswpbCGwDyXrzT8mxmis7svow0IHeglFhx2CWETMLlW0oMVDoQ==",
+      "path": "kaiheila.net.core/0.0.25-alpha",
+      "hashPath": "kaiheila.net.core.0.0.25-alpha.nupkg.sha512"
+    },
+    "KaiHeiLa.Net.Rest/0.0.25-alpha": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-h838dz9ZXueUMEPbWFfqtOPlmN9EJT/IcdTbPrH74WmO2BuX8YIdysj/0eWW2EL4yhnRIDKBM+UJiiHRzQ1fxQ==",
+      "path": "kaiheila.net.rest/0.0.25-alpha",
+      "hashPath": "kaiheila.net.rest.0.0.25-alpha.nupkg.sha512"
+    },
+    "KaiHeiLa.Net.WebSocket/0.0.25-alpha": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CHv2NrugQpOmoSlVSvfTz3rP710IznPrTpi9+DHJP/3YFS4fKatKe73uzWAXcDokGcYcCh68wL2Ec97YtreZMg==",
+      "path": "kaiheila.net.websocket/0.0.25-alpha",
+      "hashPath": "kaiheila.net.websocket.0.0.25-alpha.nupkg.sha512"
+    },
+    "Microsoft.Bcl.AsyncInterfaces/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UcSjPsst+DfAdJGVDsu346FX0ci0ah+lw3WRtn18NUwEqRt70HaOQ7lI72vy3+1LxtqI3T5GWwV39rQSrCzAeg==",
+      "path": "microsoft.bcl.asyncinterfaces/6.0.0",
+      "hashPath": "microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.ClearScript.Core/7.2.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PlJ2PtLqC+mO+Kr3PvNpp77p0PovlrufdAD7SjshU40JAK4SEhKdpqGO42FouGsKsmqG5Pyf94B15Xh8Vb2yqg==",
+      "path": "microsoft.clearscript.core/7.2.5",
+      "hashPath": "microsoft.clearscript.core.7.2.5.nupkg.sha512"
+    },
+    "Microsoft.ClearScript.V8/7.2.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8UFm7HlZrPQGFYIJJREnqbUloaahh7NM85ZN3unPj7gj95h1+1AR4rUIimFM5a0cQRxeEobuDqRiPR5+MgYccg==",
+      "path": "microsoft.clearscript.v8/7.2.5",
+      "hashPath": "microsoft.clearscript.v8.7.2.5.nupkg.sha512"
+    },
+    "Microsoft.ClearScript.V8.Native.win-x64/7.2.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tLiiw7WMor5uB7rvBxCS3/Twq0ZgT0b+6FS6Dl0Fbpz7YHCRgVekzS6ViqCHi4WaT2OZBRiV8olUiQb5ZQBbpA==",
+      "path": "microsoft.clearscript.v8.native.win-x64/7.2.5",
+      "hashPath": "microsoft.clearscript.v8.native.win-x64.7.2.5.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/2.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mOJy3M0UN+LUG21dLGMxaWZEP6xYpQEpLuvuEQBaownaX4YuhH6NmNUlN9si+vNkAS6dwJ//N1O4DmLf2CikVg==",
+      "path": "microsoft.netcore.platforms/2.1.2",
+      "hashPath": "microsoft.netcore.platforms.2.1.2.nupkg.sha512"
+    },
+    "NeteaseCloudMusicApi/3.25.3.10000": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3k2+U/qGc5YbPdpolKAPo42NsiGv31IBNqIgEaBE8HBeDWInj/d8q4PGT/Vja6Bi/IMnE3Zr0l77n4ImtXEfPw==",
+      "path": "neteasecloudmusicapi/3.25.3.10000",
+      "hashPath": "neteasecloudmusicapi.3.25.3.10000.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rTK0s2EKlfHsQsH6Yx2smvcTCeyoDNgCW7FEYyV01drPlh2T243PR2DiDXqtC5N4GDm4Ma/lkxfW5a/4793vbA==",
+      "path": "newtonsoft.json/12.0.2",
+      "hashPath": "newtonsoft.json.12.0.2.nupkg.sha512"
+    },
+    "SharpZipLib/1.3.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-N8+hwhsKZm25tDJfWpBSW7EGhH/R7EMuiX+KJ4C4u+fCWVc1lJ5zg1u3S1RPPVYgTqhx/C3hxrqUpi6RwK5+Tg==",
+      "path": "sharpziplib/1.3.3",
+      "hashPath": "sharpziplib.1.3.3.nupkg.sha512"
+    },
+    "System.Collections.Immutable/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-l4zZJ1WU2hqpQQHXz1rvC3etVZN+2DLmQMO79FhOTZHMn8tDRr+WU287sbomD0BETlmKDn0ygUgVy9k5xkkJdA==",
+      "path": "system.collections.immutable/6.0.0",
+      "hashPath": "system.collections.immutable.6.0.0.nupkg.sha512"
+    },
+    "System.Linq.Async/6.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0YhHcaroWpQ9UCot3Pizah7ryAzQhNvobLMSxeDIGmnXfkQn8u5owvpOH0K6EVB+z9L7u6Cc4W17Br/+jyttEQ==",
+      "path": "system.linq.async/6.0.1",
+      "hashPath": "system.linq.async.6.0.1.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
+      "path": "system.runtime.compilerservices.unsafe/6.0.0",
+      "hashPath": "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    },
+    "System.Text.Encoding.CodePages/4.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4J2JQXbftjPMppIHJ7IC+VXQ9XfEagN92vZZNoG12i+zReYlim5dMoXFC1Zzg7tsnKDM7JPo5bYfFK4Jheq44w==",
+      "path": "system.text.encoding.codepages/4.5.1",
+      "hashPath": "system.text.encoding.codepages.4.5.1.nupkg.sha512"
+    },
+    "System.Text.Encodings.Web/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Vg8eB5Tawm1IFqj4TVK1czJX89rhFxJo9ELqc/Eiq0eXy13RK00eubyU6TJE6y+GQXjyV5gSfiewDUZjQgSE0w==",
+      "path": "system.text.encodings.web/6.0.0",
+      "hashPath": "system.text.encodings.web.6.0.0.nupkg.sha512"
+    },
+    "System.Text.Json/6.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0nE2gwXLn3PTBOPwORLqwuYvWB+Beomt9ZBX+6LmogMNKUvfD1SoDb/ycB1vBntT94rGaB/SvxEyeLu14H6aEg==",
+      "path": "system.text.json/6.0.2",
+      "hashPath": "system.text.json.6.0.2.nupkg.sha512"
+    }
+  }
+}
