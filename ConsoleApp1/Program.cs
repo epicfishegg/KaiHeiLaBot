@@ -4,7 +4,6 @@ using KaiHeiLa.WebSocket;
 using System.Net;
 using System.Text.RegularExpressions;
 using System.Windows;
-using JavaScriptEngineSwitcher;
 using ConsoleApp1;
 
 class Program

@@ -6,7 +6,6 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Threading;
-using JavaScriptEngineSwitcher;
 
 
 public class GetActResultTools
@@ -20,7 +19,6 @@ public class GetActResultTools
     //    var b = regexLogsBundleId.Match("https://cn.fflogs.com/reports/TYt3AynjPqVx498F#fight=44&type=damage-done");
     //    Console.WriteLine($"{a}\n{b}");
     //}
-    JavaScriptEngineSwitcher.V8.V8JsEngine engine = new JavaScriptEngineSwitcher.V8.V8JsEngine();
     public string GetUrlByName(string name)
     {
         return $"https://cn.fflogs.com/search/?term={name}";
